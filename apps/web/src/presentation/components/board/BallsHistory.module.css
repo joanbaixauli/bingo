@@ -1,0 +1,20 @@
+.ballsHistory {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.latestBall {
+  display: flex;
+  align-items: center;
+  font-size: 5rem;
+  width: 6rem;
+  height: 6rem;
+}
+
+.lastBalls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-between;
+}
