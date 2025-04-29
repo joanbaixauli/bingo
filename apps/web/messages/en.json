@@ -3,5 +3,13 @@
     "title": "Welcome to Real-Time Bingo!",
     "description": "Play with your friends online and see the bingo board update instantly.",
     "playButton": "Play Now"
+  },
+  "CreateGamePage": {
+    "title": "Create a Game",
+    "createGame": "Create Game",
+    "hostName": "Enter your name",
+    "cardsNumber": "Number of Cards",
+    "startGame": "Start Game",
+    "waitingForPlayers": "Waiting for players to join..."
   }
 }

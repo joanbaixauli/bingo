@@ -38,7 +38,7 @@ export default function Button({
       disabled={disabled}
       className={`${
         variant === 'primary' ? 'bg-blue-500' : 'bg-gray-500'
-      } ${buttonSize} text-white rounded`}
+      } ${buttonSize} text-white rounded hover:bg-blue-700 m-[2px] focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-opacity-50 transition duration-180 ease-in-out ${disabled ? 'opacity-50 cursor-not-allowed' : ''}`}
       {...props}
     >
       {children}

@@ -1,12 +1,13 @@
-import PlayForm from "@/presentation/components/play/PlayForm";
 import style from "./page.module.css"
 import Modal from "@/presentation/components/ui/Modal";
+import CreateSessionForm from "@/presentation/components/CreateSession/CreateSessionForm";
 
-export default function PlayPage() {
+
+export default async function Page() {
   return (
     <div className={style.playPage}>
-      <Modal isOpen={true} size="large">
-        <PlayForm />
+      <Modal isOpen={true} size="small">
+        <CreateSessionForm />
       </Modal>
     </div>
   );

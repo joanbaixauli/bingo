@@ -3,5 +3,13 @@
     "title": "¡Bienvenido al Bingo en Tiempo Real!",
     "description": "Juega online con tus amigos y ve cómo el tablero se actualiza al instante.",
     "playButton": "Jugar Ahora"
+  },
+  "CreateGamePage": {
+    "title": "Crear una partida",
+    "createGame": "Crear Partida",
+    "hostName": "Introduce tu nombre",
+    "cardsNumber": "Número de Cartones",
+    "startGame": "Iniciar Juego",
+    "waitingForPlayers": "Esperando a que los jugadores se unan..."
   }
 }

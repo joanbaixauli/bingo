@@ -1,0 +1,24 @@
+.createSessionForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.createSessionForm h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.createSessionForm .formField label {
+  font-size: 1.2rem;
+  /* font-weight: bold; */
+  margin-bottom: 0.5rem;
+}
+
+.formField { 
+  margin: 1rem 0;
+}
+
+.formField button {
+  display: none;
+}
