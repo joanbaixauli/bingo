@@ -15,11 +15,12 @@ export default function Input(props: InputProps) {
         <input
             onChange={props.onChange}
             className={style.field}
+            placeholder=""
             {...props}
           />
-          <label htmlFor={props.name} className={`${style.label}`}>
+          <label htmlFor={props.id} className={`${style.label}`}>
             {props.label}
-            {/* {props.required && <span className="text-red-500">*</span>} */}
+            {props.required && <span className="text-red-500">*</span>}
           </label>
       </div>
     </div>

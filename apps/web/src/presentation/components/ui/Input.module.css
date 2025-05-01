@@ -42,7 +42,8 @@
   outline: none;
 }
 
-.input .field:focus + .label, .input .field:not(:placeholder-shown) + .input .label {
+.input .field:focus + .label, 
+.input .field:not(:placeholder-shown) + .label {
   transform: translate(.25rem, -65%) scale(.8);
   color: var(--color-accent);
 }

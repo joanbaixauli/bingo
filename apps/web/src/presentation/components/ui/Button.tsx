@@ -4,7 +4,7 @@ import React from 'react'
 
 // Define the props type for the Button component
 type ButtonProps = {
-  onClick: () => void;
+  onClick?: () => void;
   disabled?: boolean;
   variant?: 'primary';
   size?: 'sm' | 'md' | 'lg';
