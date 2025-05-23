@@ -7,3 +7,9 @@
 [submodule "bingo-api"]
 	path = bingo-api
 	url = https://github.com/joanotinho/bingo-api.git
+[submodule "apps/api"]
+	path = apps/api
+	url = https://github.com/joanotinho/bingo-api.git
+[submodule "apps/web"]
+	path = apps/web
+	url = https://github.com/joanotinho/bingo-web.git
