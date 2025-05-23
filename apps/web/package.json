@@ -13,10 +13,12 @@
     "next-intl": "^4.0.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "shared-types": "workspace:^",
     "zod": "^3.24.3"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
+    "@swc/helpers": "^0.5.17",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
