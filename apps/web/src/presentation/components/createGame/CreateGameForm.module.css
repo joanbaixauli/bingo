@@ -1,15 +1,15 @@
-.createSessionForm {
+.createGameForm {
   display: flex;
   flex-direction: column;
 }
 
-.createSessionForm h1 {
+/* .createGameForm h1 {
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 1rem;
-}
+} */
 
-.createSessionForm .formField label {
+.createGameForm .formField label {
   font-size: 1.2rem;
   /* font-weight: bold; */
   margin-bottom: 0.5rem;

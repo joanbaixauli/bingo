@@ -15,11 +15,13 @@ export async function createGameAction(formData: FormData) {
     return;
   }
   const data = await createGame(parsed.data);
-  redirect(`/play/${data.code}`);
+  // TODO: hostId retrieval and storage in context for later host-only actions and authentication at the backend
+  debugger;
+  redirect(`/wait/${data.code}`);
 }
 
 export async function createGame(payload: CreateGamePayload) {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/game`, {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/game/create`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(payload),

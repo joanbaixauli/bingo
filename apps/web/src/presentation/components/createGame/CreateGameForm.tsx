@@ -4,14 +4,14 @@ import React from 'react'
 import Button from '../ui/Button'
 import { useTranslations } from "next-intl";
 import Input from '../ui/Input';
-import style from './CreateSessionForm.module.css'
+import style from './CreateGameForm.module.css'
 import { createGameAction } from '@/actions/play/createGame';
 
-export default function CreateSessionForm() {
-  const t = useTranslations('CreateGamePage');
+export default function CreateGameForm() {
+  const t = useTranslations('CreateGame');
 
   return (
-    <div className={style.createSessionForm}>
+    <div className={style.createGameForm}>
       <h1>{t('title')}</h1>
       <form action={createGameAction}>
           <Input label={t('hostName')} id='hostName' name='hostName' />

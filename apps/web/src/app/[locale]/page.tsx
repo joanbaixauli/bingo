@@ -1,29 +1,24 @@
-import {getTranslations} from 'next-intl/server';
-import Link from 'next/link';
- 
-export default async function HomePage() {
-  const t = await getTranslations('HomePage');
+import style from "./page.module.css"
+import Card from "@/presentation/components/ui/Card";
+import CreateGameForm from "@/presentation/components/createGame/CreateGameForm";
+import JoinGameForm from "@/presentation/components/joinGame/JoinGameForm";
+import { getTranslations } from "next-intl/server";
+
+
+export default async function Page() {
+  const h = await getTranslations('Helpers');
+
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen bg-black p-4">
-      <h1 className="text-4xl font-bold mb-4">{t('title')}</h1>
-      <p className="text-xl text-center mb-8">{t('description')}</p>
+    <div className={style.page}>
+      <Card size="small">
+        <CreateGameForm />
+      </Card>
 
-      <Link
-        href="/play"
-        className="px-6 py-3 bg-indigo-600 text-white rounded-xl hover:bg-indigo-700 transition-colors"
-      >
-        {t('playButton')}
-      </Link>
+      <p className={style.separator}>- {h('Or').toUpperCase()} -</p>
 
-      <footer className="mt-12">
-        <Link href="/en" className="mr-2 underline">
-          English
-        </Link>
-        |
-        <Link href="/es" className="ml-2 underline">
-          Español
-        </Link>
-      </footer>
-    </main>
-  )
+      <Card size="small">
+        <JoinGameForm />
+      </Card>
+    </div>
+  );
 }

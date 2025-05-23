@@ -1,0 +1,24 @@
+/* :global(*) {
+  overflow: hidden;
+} */
+
+.pageWrapper {
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.waitingForPlayers {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.gameCode {
+  margin: 1rem auto;
+}
+
+.playersList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem auto;
+}
