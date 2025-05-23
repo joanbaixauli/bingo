@@ -1,0 +1,6 @@
+[submodule "apps/apps/api"]
+	path = apps/apps/api
+	url = https://github.com/joanotinho/bingo-api.git
+[submodule "apps/apps/web"]
+	path = apps/apps/web
+	url = https://github.com/joanotinho/bingo-web.git
