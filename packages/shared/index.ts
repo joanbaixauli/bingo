@@ -4,4 +4,4 @@ export * from './schemas/game/joinGameSchema';
 export * from './schemas/player/ConnectSchema';
 
 // TYPES
-export * from './types/createGame';
+export * from './types/GameActionResponse';
