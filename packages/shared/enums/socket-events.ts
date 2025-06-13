@@ -1,0 +1,10 @@
+export enum SocketEvents {
+  GAME_START = 'game:start',
+  GAME_STARTING = 'game:starting',
+  GAME_STARTED = 'game:started',
+  PLAYER_JOINED = 'player:joined',
+  PLAYER_CONNECTED = 'player:connected',
+  PLAYER_DISCONNECTED = 'player:disconnected',
+  PLAYER_DISCONNECT = 'player:disconnect',
+  ERROR = 'error',
+}

@@ -1,7 +1,10 @@
 // SCHEMAS
-export * from './schemas/game/createGameSchema';
-export * from './schemas/game/joinGameSchema';
-export * from './schemas/player/ConnectSchema';
+export * from './schemas/game/create-game-schema';
+export * from './schemas/game/join-game-schema';
+export * from './schemas/player/connect-player-schema';
 
 // TYPES
-export * from './types/GameActionResponse';
+export * from './types/game-action-response';
+
+// ENUMS
+export * from './enums/socket-events';
