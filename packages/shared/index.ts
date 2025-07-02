@@ -8,3 +8,4 @@ export * from './types/game-action-response';
 
 // ENUMS
 export * from './enums/socket-events';
+export * from './enums/game-status';
