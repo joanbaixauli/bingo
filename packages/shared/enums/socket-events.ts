@@ -7,5 +7,7 @@ export enum SocketEvents {
   PLAYER_DISCONNECTED = 'player:disconnected',
   PLAYER_DISCONNECT = 'player:disconnect',
   PLAYER_HEARTBEAT = 'player:heartbeat',
+  CARDS_SENT = 'cards:sent',
+  BALL_CALLED = 'ball:called',
   ERROR = 'error',
 }
