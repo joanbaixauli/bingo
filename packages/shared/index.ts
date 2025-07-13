@@ -9,4 +9,4 @@ export * from './types/card';
 
 // ENUMS
 export * from './enums/socket-events';
-export * from './enums/game-status';
+export * from './enums/game';

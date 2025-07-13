@@ -9,5 +9,7 @@ export enum SocketEvents {
   PLAYER_HEARTBEAT = 'player:heartbeat',
   CARDS_SENT = 'cards:sent',
   BALL_CALLED = 'ball:called',
+  BINGO_WINNER_DETECTED = 'bingo:winner:detected',
+  ROW_WINNER_DETECTED = 'row:winner:detected',
   ERROR = 'error',
 }
